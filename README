@@ -1,0 +1,9 @@
+A small benchmark for TensorFlow matrix multiplications
+
+Edit the top of bench-matmul.sh and set the paths to python in the virtualenv
+and system for the different tensorflow's to compare. Then run
+./bench-matmul.sh, it will output the results and save to .csv files. It will
+also output a png of the graph.
+
+Associated blog post: https://blog.perfinion.com/2018/07/tensorflow-cpu-supports-instructions/
+
